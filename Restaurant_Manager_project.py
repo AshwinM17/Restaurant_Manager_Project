@@ -1,6 +1,6 @@
 import mysql.connector
 from tkinter import *
-#hi
+
 mydb=mysql.connector.connect(host="localhost",user="root",passwd="Ashwin@319",database="school")
 #change the passwd and database name etc according to the computer.
 mycur=mydb.cursor()
